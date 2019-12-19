@@ -60,29 +60,6 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.com/e/spring-2020-mini-workshops-tickets-86855187203" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-86855187203" type="button">Buy Tickets</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '86855187203',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-86855187203',
-        onOrderComplete: exampleCallback
-    });
-</script>
-
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
