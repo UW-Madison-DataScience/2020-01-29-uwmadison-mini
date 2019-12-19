@@ -74,6 +74,8 @@ the pitch.
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/intro.html %}
 {% endif %}
 
 {% comment %}
@@ -88,6 +90,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/who.html %}
 {% endif %}
 
 {% comment %}
@@ -189,7 +193,7 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>.This document also outlines how to report an incident if needed.
+Everyone who participates in Data Science Hub workshop is required to conform to the Carpentries <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>.This document also outlines how to report an incident if needed.
 </p>
 
 <p class="text-center">
@@ -244,6 +248,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/schedule.html %}
 {% endif %}
 
 <hr/>
@@ -273,6 +279,8 @@ please preview your site before committing, and make sure to run
 {% include dc/syllabus.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/syllabus.html %}
 {% endif %}
 
 <hr/>
@@ -316,4 +324,6 @@ please preview your site before committing, and make sure to run
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/setup.html %}
 {% endif %}
