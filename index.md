@@ -6,7 +6,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "43.074900"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-89.409650"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Spring 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "2020 - Jan 29th, Feb 12th, Mar 11th, Mar 18th, Apr 1st, Apr 15th, Apr 29th"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30am - noon"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-01-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-04-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
